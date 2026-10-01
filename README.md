@@ -84,12 +84,3 @@ Appended the following routing telemetry configurations inside the global config
 ```
 
 ---
-
-## 💼 UK Professional CV / Resume Bullet Points
-
-*Add this directly to your professional profile or experience catalog:*
-
-- **Cybersecurity Architecture & DevSecOps:** Designed and engineered a fully virtualized Enterprise Security Operations Center (SOC) lab utilizing **Wazuh SIEM** and **Docker Desktop**, establishing secure containerized logging planes.
-- **Agentic AI & LLM Engineering:** Built an asynchronous integration daemon in Python that channels critical JSON alert telemetry to a localized **Ollama Phi-3 (3B)** model, mitigating alert fatigue through context-aware triage automation.
-- **SOAR Infrastructure Automation:** Integrated localized LLM decisions with container-runtime control APIs, establishing closed-loop incident handling capabilities that automatically execute **NIST SP 800-61 containment protocols** (dynamic network micro-segmentation/isolation) upon active exploitation indicators.
-- **Compliance & Risk Advisory:** Implemented automated ingestion templates translating technical threat payloads directly into institutional governance requirements spanning **ISO 27001 Control Frameworks** and **NIST SP 800-53 baselines**.
