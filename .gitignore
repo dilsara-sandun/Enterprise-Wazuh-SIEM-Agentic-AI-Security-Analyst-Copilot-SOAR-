@@ -1,0 +1,9 @@
+nginx_logs/
+wazuh-docker/
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+.idea/
+.vscode/

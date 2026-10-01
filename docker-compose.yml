@@ -1,0 +1,20 @@
+version: '3.8'
+
+networks:
+  secure_network:
+    driver: bridge
+
+services:
+  enterprise_web_node:
+    image: nginx:alpine
+    container_name: enterprise_web_node
+    ports:
+      - "8080:80"
+    networks:
+      - secure_network
+    volumes:
+      - ./nginx_logs:/var/log/nginx
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
